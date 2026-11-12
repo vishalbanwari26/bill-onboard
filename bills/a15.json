@@ -1,0 +1,19 @@
+{
+  "id": "a15",
+  "layout": "a",
+  "fault": null,
+  "damage": "clean",
+  "truth": {
+    "supplier": "Northwind Energy",
+    "account_number": "A-580416",
+    "mpan_core": "9868282880720",
+    "period_start": "2026-05-01",
+    "period_end": "2026-07-20",
+    "usage_kwh": 348.0,
+    "unit_rate_p_per_kwh": 20.73,
+    "energy_charge_gbp": 72.14,
+    "standing_charge_p_per_day": 59.8,
+    "total_gbp": 126.61
+  },
+  "expected_flags": []
+}

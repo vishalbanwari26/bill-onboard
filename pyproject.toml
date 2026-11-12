@@ -1,0 +1,27 @@
+[project]
+name = "bill-onboard"
+version = "0.1.0"
+description = "Energy-bill onboarding demo: a vision model reads the bill, code checks it, Temporal waits for the customer."
+readme = "README.md"
+authors = [
+    { name = "Vishal Banwari", email = "160028961+vishalbanwari26@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "openai>=3.49.0",
+    "pillow>=13.0.0",
+    "pydantic>=2.14.3",
+    "temporalio>=1.36.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.11.28,<0.12.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

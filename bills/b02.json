@@ -1,0 +1,19 @@
+{
+  "id": "b02",
+  "layout": "b",
+  "fault": null,
+  "damage": "faded",
+  "truth": {
+    "supplier": "Brightwater Power",
+    "account_number": "A-214768",
+    "mpan_core": "2402344834780",
+    "period_start": "2026-05-01",
+    "period_end": "2026-06-13",
+    "usage_kwh": 168.0,
+    "unit_rate_p_per_kwh": 26.32,
+    "energy_charge_gbp": 44.22,
+    "standing_charge_p_per_day": 49.77,
+    "total_gbp": 69.43
+  },
+  "expected_flags": []
+}

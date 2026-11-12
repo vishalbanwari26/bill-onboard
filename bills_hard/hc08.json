@@ -1,0 +1,20 @@
+{
+  "id": "hc08",
+  "layout": "c",
+  "fault": null,
+  "damage": "harsh",
+  "covered": null,
+  "truth": {
+    "supplier": "Kestrel Utilities",
+    "account_number": "A-309999",
+    "mpan_core": "2675563921806",
+    "period_start": "2026-04-01",
+    "period_end": "2026-06-14",
+    "usage_kwh": 107.0,
+    "unit_rate_p_per_kwh": 27.61,
+    "energy_charge_gbp": 29.54,
+    "standing_charge_p_per_day": 45.82,
+    "total_gbp": 67.11
+  },
+  "expected_flags": []
+}
