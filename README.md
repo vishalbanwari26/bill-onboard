@@ -4,6 +4,10 @@ A customer switching energy supplier uploads a photo of their old bill. A vision
 
 Everything here is invented: the suppliers, the customers and the bills. No real data was used.
 
+[![22-second demo video: a stained bill photo is read, the unreadable field is flagged, the customer fills it in, and Temporal finishes the onboarding](docs/demo-poster.jpg)](https://vishalbanwari.tech/bill-onboard/demo.mp4)
+
+The video is also in the repo at [`docs/demo.mp4`](docs/demo.mp4).
+
 ```
 photo ──> read_bill (model, retried by Temporal)
              │
